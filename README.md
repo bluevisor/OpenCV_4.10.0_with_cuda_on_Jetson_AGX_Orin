@@ -16,11 +16,6 @@ Setup AGX Orin:
 
 8, Install curl: `sudo apt install curl`
 
-9, Install Mojo/Max: `curl -s https://get.modular.com | sh -`, `python3 -m venv max-venv && source max-venv/bin/activate`, `modular auth`, `modular install max`, `MAX_PATH=$(modular config max.path) \
-  && python3 -m pip install --find-links $MAX_PATH/wheels max-engine`, `MAX_PATH=$(modular config max.path) \
-  && BASHRC=$( [ -f "$HOME/.bash_profile" ] && echo "$HOME/.bash_profile" || echo "$HOME/.bashrc" ) \
-  && echo 'export MODULAR_HOME="'$HOME'/.modular"' >> "$BASHRC" \
-  && echo 'export PATH="'$MAX_PATH'/bin:$PATH"' >> "$BASHRC" \
-  && source "$BASHRC"`
+9, Install Mojo/Max: `https://docs.modular.com/max/install`
 
 *Do not use U.S. apt mirror
