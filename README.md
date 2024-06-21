@@ -1,4 +1,4 @@
-Setup AGX Orin:
+Setup Nvidia Jetson AGX Orin:
 
 1, Install Jetpack 6 using NVIDIA's SDK Manager, from an X86 Ubuntu 20.04 via USB (hold Recovery and Reset for 2 seconds)
 
