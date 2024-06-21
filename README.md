@@ -19,3 +19,5 @@ Setup Nvidia Jetson AGX Orin:
 9, Install Mojo/Max: `https://docs.modular.com/max/install`
 
 *Do not use U.S. apt mirror
+
+p.s. Install missing Cuda and TensorRT: `sudo apt-get install tensorrt nvidia-tensorrt-dev python3-libnvinfer-dev`
