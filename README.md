@@ -10,16 +10,6 @@ Setup Nvidia Jetson AGX Orin:
 
 5, Install OpenCV with Cuda: `chmod +x install_OpenCV_4.10.0_with_cuda_on_Jetpack_6.sh`, `sudo ./install_OpenCV_4.10.0_with_cuda_on_Jetpack_6.sh`
 
-6, Install warp: `https://www.warp.dev/download`
-
-7, Install VS Code: `https://code.visualstudio.com/download`
-
-8, Install curl: `sudo apt install curl`
-
-9, Install Mojo/Max: `https://docs.modular.com/max/install`
-
-10, Install missing Cuda and TensorRT: `sudo apt-get install tensorrt nvidia-tensorrt-dev python3-libnvinfer-dev`
-
-11, Install ChatBox: `https://github.com/Bin-Huang/chatbox/releases`
+6, Install missing Cuda and TensorRT: `sudo apt-get install tensorrt nvidia-tensorrt-dev python3-libnvinfer-dev`
 
 p.s. *Do not use U.S. apt mirror
