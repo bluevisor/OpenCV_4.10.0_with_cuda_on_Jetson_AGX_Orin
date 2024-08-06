@@ -18,4 +18,7 @@ Setup Nvidia Jetson AGX Orin:
 6, Install TensorRT: 
 `sudo apt-get install tensorrt nvidia-tensorrt-dev python3-libnvinfer-dev`
 
+7, Install PyTorch:
+https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
+
 p.s. *Do not use U.S. apt mirror
