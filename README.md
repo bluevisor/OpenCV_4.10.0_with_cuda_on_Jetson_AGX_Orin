@@ -4,21 +4,19 @@ Setup Nvidia Jetson AGX Orin:
 
 2, Change Power mode to MAXN
 
-3, Install Chromeium via Ubuntu Software app
-
-4, Install jtop: 
+3, Install jtop: 
 `sudo apt update`, 
 `sudo apt install python3-pip`, 
 `sudo pip3 install jetson-stats`
 
-5, Install OpenCV with Cuda: download the shell script from this repo, 
+4, Install OpenCV with Cuda: download the shell script from this repo, 
 `chmod +x install_OpenCV_4.10.0_with_cuda_on_Jetpack_6.sh`, 
 `sudo ./install_OpenCV_4.10.0_with_cuda_on_Jetpack_6.sh`
 
-6, Install TensorRT: 
+5, Install TensorRT: 
 `sudo apt-get install tensorrt nvidia-tensorrt-dev python3-libnvinfer-dev`
 
-7, Install PyTorch:
+6, Install PyTorch:
 https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
 
 p.s. *Do not use U.S. apt mirror
